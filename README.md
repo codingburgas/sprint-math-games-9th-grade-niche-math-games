@@ -32,14 +32,29 @@ It’s perfect for students, casual learners, or anyone who wants to sharpen the
 ## 🛠 Used Technologies
  
 ### Software & Tools  
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Visual_Studio_Icon_2022.svg/1200px-Visual_Studio_Icon_2022.svg.png%22 width="20"> **Visual Studio 2022**  
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20"> **GitHub**  
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Word_2013_logo.svg" width="20"> **MS Word**  
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Microsoft_PowerPoint_Logo.png" width="20"> **MS PowerPoint**  
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/2203px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png%22 width="20"> **MS Teams**  
- 
-### Programming Language  
-<img src="https://brandslogos.com/wp-content/uploads/thumbs/c-logo-vector.svg" width="20"> **C++**
+<div>
+
+<img src="https://github.com/user-attachments/assets/feb516c4-8de9-4827-866f-1d74ef741851" width="40" style="vertical-align:middle;"> Visual Studio 2022
+<br>
+
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="25" style="vertical-align:middle;"> GitHub
+<br>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Word_2013_logo.svg" width="25" style="vertical-align:middle;"> MS Word
+<br>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Microsoft_PowerPoint_Logo.png" width="25" style="vertical-align:middle;"> MS PowerPoint
+<br>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/2048px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png" width="25" style="vertical-align:middle;"> MS Teams
+
+</div>
+Programming Language
+<div>
+
+<img src="https://brandslogos.com/wp-content/uploads/thumbs/c-logo-vector.svg" width="25" style="vertical-align:middle;"> C++
+
+</div>
  
 ---
  
