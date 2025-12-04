@@ -1,51 +1,93 @@
 # Niche Math Games
-
+ 
 ## 📚 Table of Contents
-- [About the Project](#about-the-project)
-- [Features](#features)
-- [Used Technologies](#used-technologies)
-- [Download](#download)
-- [Contributors](#contributors)
-
+- [About the Project](#-about-the-project)
+- [Features](#-features)
+- [Used Technologies](#-used-technologies)
+- [Download](#-download)
+- [Contributors](#-contributors)
+ 
 ---
-
+ 
 ## 📘 About the Project
 **Niche Math Games** is a lightweight and fun math quiz game designed to help users practice basic arithmetic at three difficulty levels: **Easy**, **Medium**, and **Hard**.
-
+ 
 It’s perfect for students, casual learners, or anyone who wants to sharpen their mental math skills.
-
+ 
 ---
-
+ 
 ## 🎮 Features
-
+ 
 ✔ **Three Difficulty Levels**
 - Easy – simple addition and subtraction  
 - Medium – mixed operations with higher numbers  
 - Hard – more challenging equations and trickier combinations  
-
+ 
 ✔ Randomly generated questions  
 ✔ Score tracking  
 ✔ Clean and simple user experience  
-
+ 
 ---
-
+ 
 ## 🛠 Used Technologies
-
+ 
 ### Software & Tools  
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Visual_Studio_Icon_2022.svg/1200px-Visual_Studio_Icon_2022.svg.png" width="20"> **Visual Studio 2022**  
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Visual_Studio_Icon_2022.svg/1200px-Visual_Studio_Icon_2022.svg.png%22 width="20"> **Visual Studio 2022**  
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20"> **GitHub**  
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Word_2013_logo.svg" width="20"> **MS Word**  
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Microsoft_PowerPoint_Logo.png" width="20"> **MS PowerPoint**  
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/2203px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png" width="20"> **MS Teams**  
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/2203px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png%22 width="20"> **MS Teams**  
+ 
 ### Programming Language  
 <img src="https://brandslogos.com/wp-content/uploads/thumbs/c-logo-vector.svg" width="20"> **C++**
-
+ 
 ---
-
+ 
 ## 📥 Download
-
+ 
 To clone the repository:
-
+ 
 ```bash
 git clone https://github.com/codingburgas/sprint-math-games-9th-grade-niche-math-games.git
+```
+ 
+## 👥 Contributors
+ 
+<table>
+<tr>
+<td align="center">
+<a href="https://github.com/Altay-Yemendzhiev">
+<img src="https://github.com/Altay-Yemendzhiev.png" width="80" style="border-radius:50%"><br>
+<sub><b>Алтай Йеменджиев</b></sub>
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/MGIliev24">
+<img src="https://github.com/MGIliev24.png" width="80" style="border-radius:50%"><br>
+<sub><b>Мирослав Илиев</b></sub>
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/RRIvanchev24">
+<img src="https://github.com/RRIvanchev24.png" width="80" style="border-radius:50%"><br>
+<sub><b>Ростислав Иванчев</b></sub>
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/Ivantr77">
+<img src="https://github.com/Ivantr77.png" width="80" style="border-radius:50%"><br>
+<sub><b>Иван Трифонов</b></sub>
+</a>
+</td>
+</tr>
+</table>
+ 
+---
+ 
+### 🎯 Project Roles
+ 
+- **Алтай Йеменджиев** – *Scrum Trainer*  
+- **Мирослав Илиев** – *Back-End Developer*  
+- **Ростислав Иванчев** – *Front-End Developer*  
+- **Иван Трифонов** – *Designer*
+ 
