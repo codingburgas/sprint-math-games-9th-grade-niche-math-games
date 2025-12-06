@@ -1,23 +1,23 @@
 #include <cmath>
 #include "rng.h"
 
-static unsigned int currentSeed = 123u;
+static unsigned int seed = 123;
 
 void setSeed(unsigned int newSeed) {
-    currentSeed = newSeed;
+    seed = newSeed;
 }
 
 int nextRand() {
-    const unsigned int multiplier = 1103515245u;
-    const unsigned int increment = 12345u;
-    const unsigned int modulus = 2147483648u;
+    const unsigned int a = 1103515245;
+    const unsigned int c = 12345;
+    const unsigned int m = 2147483648u;
 
-    currentSeed = (multiplier * currentSeed + increment) % modulus;
-    return static_cast<int>(currentSeed);
+    seed = (a * seed + c) % m;
+    return static_cast<int>(seed);
 }
 
-int getRandomInRange(int min, int max) {
-    int randValue = nextRand();
-    int rangeSize = std::abs(max - min) + 1;
-    return (randValue % rangeSize) + min;
+int getRandomInRange(int min, int max) { 
+    int r = nextRand(); 
+    int range = std::abs(max - min) + 1;
+    return (r % range) + min;
 }
