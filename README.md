@@ -30,29 +30,30 @@ It’s perfect for students, casual learners, or anyone who wants to sharpen the
 ---
  
 ## 🛠 Used Technologies
- 
+
 ### Software & Tools  
 <div>
 
-<img src="https://github.com/user-attachments/assets/feb516c4-8de9-4827-866f-1d74ef741851" width="40" style="vertical-align:middle;"> Visual Studio 2022
+<img src="https://logo.svgcdn.com/logos/visual-studio.png" width="25"> Visual Studio 2022
 <br>
 
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="25" style="vertical-align:middle;"> GitHub
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="25"> GitHub
 <br>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Word_2013_logo.svg" width="25" style="vertical-align:middle;"> MS Word
+<img src="https://static2.sharepointonline.com/files/fabric/assets/brand-icons/product-fluent/png/word_48x1.png" width="25"> MS Word
 <br>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Microsoft_PowerPoint_Logo.png" width="25" style="vertical-align:middle;"> MS PowerPoint
+<img src="https://static2.sharepointonline.com/files/fabric/assets/brand-icons/product-fluent/png/powerpoint_48x1.png" width="25"> MS PowerPoint
 <br>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/2048px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png" width="25" style="vertical-align:middle;"> MS Teams
+<img src="https://static2.sharepointonline.com/files/fabric/assets/brand-icons/product-fluent/png/teams_48x1.png" width="25"> MS Teams
 
 </div>
-Programming Language
+
+### Programming Language  
 <div>
 
-<img src="https://brandslogos.com/wp-content/uploads/thumbs/c-logo-vector.svg" width="25" style="vertical-align:middle;"> C++
+<img src="https://logo.svgcdn.com/devicon/cplusplus-original.png" width="25"> C++
 
 </div>
  
