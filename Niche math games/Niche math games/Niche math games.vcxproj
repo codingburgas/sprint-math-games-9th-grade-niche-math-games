@@ -126,14 +126,14 @@
     <ClCompile Include="colors.cpp" />
     <ClCompile Include="game.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="rng.cpp" />
-    <ClCompile Include="ui.cpp" />
+    <ClCompile Include="randomizer.cpp" />
+    <ClCompile Include="userInterface.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="colors.h" />
     <ClInclude Include="game.h" />
-    <ClInclude Include="rng.h" />
-    <ClInclude Include="ui.h" />
+    <ClInclude Include="randomizer.h" />
+    <ClInclude Include="userInterface.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
-#include "ui.h"
-#include "rng.h" 
+#include "userInterface.h"
+#include "randomizer.h" 
 #include "game.h" 
 #include "colors.h" 
 

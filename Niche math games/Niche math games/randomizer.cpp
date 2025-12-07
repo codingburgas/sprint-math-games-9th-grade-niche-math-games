@@ -1,7 +1,9 @@
 #include <cmath>
-#include "rng.h"
+#include "randomizer.h"
 
 static unsigned int seed = 123;
+
+using namespace std;
 
 void setSeed(unsigned int newSeed) {
     seed = newSeed;
@@ -18,6 +20,6 @@ int nextRand() {
 
 int getRandomInRange(int min, int max) { 
     int r = nextRand(); 
-    int range = std::abs(max - min) + 1;
+    int range = abs(max - min) + 1;
     return (r % range) + min;
 }

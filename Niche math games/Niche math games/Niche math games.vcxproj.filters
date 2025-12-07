@@ -18,10 +18,10 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="rng.cpp">
+    <ClCompile Include="randomizer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ui.cpp">
+    <ClCompile Include="userInterface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="colors.cpp">
@@ -32,10 +32,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="rng.h">
+    <ClInclude Include="randomizer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ui.h">
+    <ClInclude Include="userInterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="colors.h">

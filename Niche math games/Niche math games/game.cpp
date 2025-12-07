@@ -2,7 +2,7 @@
 #include <iomanip>
 #include <cmath>
 #include "game.h"
-#include "rng.h"
+#include "randomizer.h"
 #include "colors.h"
 
 using namespace std;
@@ -34,7 +34,7 @@ int askQuestion(int difficulty) {
     cout << "Question: "
         << setw(3) << right << a << " "
         << opChar << " " 
-        << setw(3) << left << b << " = ? ";
+        << setw(3) << left << b << " = ";
 
     int userAnswer;
 

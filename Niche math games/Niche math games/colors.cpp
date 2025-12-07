@@ -1,5 +1,7 @@
 #include "colors.h"
 
+using namespace std;
+
 const char* reset = "\033[0m";
 const char* green = "\033[32m";
 const char* red = "\033[31m";
