@@ -1,4 +1,4 @@
-<img width="224" height="228" alt="Screenshot_2025-12-07_173139-removebg-preview" src="https://github.com/user-attachments/assets/25434494-b70d-48e1-a19f-5a49fad65908" />
+<img width="224" height="228" alt="Logo" src="Assets/NicheLogo.png" />
 
 # Niche Math Games
  
