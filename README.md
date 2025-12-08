@@ -1,5 +1,6 @@
+<div style="text-align; center">
 <img width="224" height="228" alt="Logo" src="Assets/NicheLogo.png" />
-
+</div>
 # Niche Math Games
  
 ## 📚 Table of Contents
