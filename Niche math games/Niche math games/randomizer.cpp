@@ -1,7 +1,7 @@
 #include <cmath>
 #include "randomizer.h"
 
-static unsigned int seed = 123;
+static unsigned int seed = 123; // Default seed value used when user does not provide one
 
 using namespace std;
 
@@ -10,6 +10,7 @@ void setSeed(unsigned int newSeed) {
 }
 
 int nextRand() {
+    // Generate next random value
     const unsigned int multiplier = 1103515245u;
     const unsigned int increment = 12345u;
     const unsigned int modulus = 2147483648u;

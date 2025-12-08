@@ -5,11 +5,13 @@
 using namespace std;
 
 void clearScreen() {
+    // Print platform specific escape sequence to clear the console
     cout << clearScreenCode; 
 }
 
 void displayHeader() {
    
+    // ASCII art title
     cout << R"(
 N   N III  CCC  H   H EEEEE       M   M   A   TTTTT H   H        GGG    A   M   M EEEEE  SSSS 
 NN  N  I  C   C H   H E           MM MM  A A    T   H   H       G      A A  MM MM E     S

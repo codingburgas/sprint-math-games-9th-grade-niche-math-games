@@ -7,6 +7,7 @@
 
 using namespace std;
 
+// Ask single question and return 1 if correct, 0 if wrong
 int askQuestion(int difficulty) {
     int minVal, maxVal;
 
@@ -17,6 +18,7 @@ int askQuestion(int difficulty) {
     default:     minVal = 1;   maxVal = 10;
     }
 
+    // Pick two random operands within difficulty range
     int leftOperand = getRandomInRange(minVal, maxVal);
     int rightOperand = getRandomInRange(minVal, maxVal);
 
@@ -38,6 +40,7 @@ int askQuestion(int difficulty) {
 
     int userAnswer;
 
+    // Read user's answer and invalid input counts as wrong
     if (!(cin >> userAnswer)) {
         cin.clear();
         char leftoverInputChar;

@@ -11,6 +11,7 @@ int main() {
     clearScreen();
     displayHeader();
 
+    // Prompt for a user supplied seed
     cout << "Enter a lucky number to seed the random generator: ";
     int userSeed;
 
@@ -19,10 +20,12 @@ int main() {
     }
     else {
         cin.clear();
+        // Discard leftover input and fall back to default seed
         char inputCharacter; while (cin.get(inputCharacter) && inputCharacter != '\n');
         setSeed(12345);
     }
 
+    // Enter main menu loop
     int choice;
     while (true) {
         clearScreen();
