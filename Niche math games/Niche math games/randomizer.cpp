@@ -10,16 +10,16 @@ void setSeed(unsigned int newSeed) {
 }
 
 int nextRand() {
-    const unsigned int a = 1103515245;
-    const unsigned int c = 12345;
-    const unsigned int m = 2147483648u;
+    const unsigned int multiplier = 1103515245u;
+    const unsigned int increment = 12345u;
+    const unsigned int modulus = 2147483648u;
 
-    seed = (a * seed + c) % m;
+    seed = (multiplier * seed + increment) % modulus;
     return static_cast<int>(seed);
 }
 
 int getRandomInRange(int min, int max) { 
-    int r = nextRand(); 
-    int range = abs(max - min) + 1;
-    return (r % range) + min;
+    int randomValue = nextRand(); 
+    int rangeSize = abs(max - min) + 1;
+    return (randomValue % rangeSize) + min;
 }

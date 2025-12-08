@@ -19,7 +19,7 @@ int main() {
     }
     else {
         cin.clear();
-        char c; while (cin.get(c) && c != '\n');
+        char inputCharacter; while (cin.get(inputCharacter) && inputCharacter != '\n');
         setSeed(12345);
     }
 
@@ -38,7 +38,7 @@ int main() {
 
         if (!(cin >> choice)) {
             cin.clear();
-            char c; while (cin.get(c) && c != '\n');
+            char inputCharacter; while (cin.get(inputCharacter) && inputCharacter != '\n');
             cout << red << "\nInvalid input. Please enter a number from 1 to 4.\n" << reset;
             cout << "Press Enter to continue...";
             cin.get();

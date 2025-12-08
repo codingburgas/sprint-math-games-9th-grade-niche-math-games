@@ -17,31 +17,31 @@ int askQuestion(int difficulty) {
     default:     minVal = 1;   maxVal = 10;
     }
 
-    int a = getRandomInRange(minVal, maxVal);
-    int b = getRandomInRange(minVal, maxVal);
+    int leftOperand = getRandomInRange(minVal, maxVal);
+    int rightOperand = getRandomInRange(minVal, maxVal);
 
-    int op = nextRand() % 3;
+    int operationIndex = nextRand() % 3;
 
-    char opChar;
+    char operationSymbol;
     int answer;
 
-    switch (op) {
-    case 0: opChar = '+'; answer = a + b; break;
-    case 1: opChar = '-'; answer = a - b; break;
-    case 2: opChar = '*'; answer = a * b; break;
+    switch (operationIndex) {
+    case 0: operationSymbol = '+'; answer = leftOperand + rightOperand; break;
+    case 1: operationSymbol = '-'; answer = leftOperand - rightOperand; break;
+    case 2: operationSymbol = '*'; answer = leftOperand * rightOperand; break;
     }
 
     cout << "Question: "
-        << setw(3) << right << a << " "
-        << opChar << " " 
-        << setw(3) << left << b << " = ";
+        << setw(3) << right << leftOperand << " "
+        << operationSymbol << " " 
+        << setw(3) << left << rightOperand << " = ";
 
     int userAnswer;
 
     if (!(cin >> userAnswer)) {
         cin.clear();
-        char c;
-        while (cin.get(c) && c != '\n');
+        char leftoverInputChar;
+        while (cin.get(leftoverInputChar) && leftoverInputChar != '\n');
         cout << red << "Invalid input! Counted as wrong.\n" << reset;
         return 0;
     }
@@ -62,7 +62,7 @@ void playQuiz(int difficulty) {
 
     cout << "\n--- Starting Quiz ---\n";
 
-    for (int i = 0; i < totalQuestions; i++)
+    for (int questionIndex = 0; questionIndex < totalQuestions; ++questionIndex)
         score += askQuestion(difficulty);
 
     cout << "\n--- Quiz End ---\n";
